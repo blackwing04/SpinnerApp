@@ -22,11 +22,25 @@
         android:id="@+id/btOK"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:layout_marginTop="60dp"
+        android:layout_marginTop="128dp"
         android:text="@string/OK"
         app:layout_constraintEnd_toEndOf="@+id/spGender"
-        app:layout_constraintHorizontal_bias="0.578"
+        app:layout_constraintHorizontal_bias="0.508"
         app:layout_constraintStart_toStartOf="@+id/spGender"
         app:layout_constraintTop_toBottomOf="@+id/spGender" />
+
+    <EditText
+        android:id="@+id/etAge"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:ems="10"
+        android:hint="@string/OK_hint"
+        android:inputType="number"
+        app:layout_constraintBottom_toTopOf="@+id/btOK"
+        app:layout_constraintEnd_toEndOf="@+id/spGender"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="@+id/spGender"
+        app:layout_constraintTop_toBottomOf="@+id/spGender"
+        app:layout_constraintVertical_bias="0.511" />
 
 </androidx.constraintlayout.widget.ConstraintLayout>
